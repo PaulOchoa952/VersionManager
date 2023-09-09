@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consulta Articulos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+            <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+            <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+            <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+        </ul>
+        <h2>Lista de Artículos</h2>
+
+    <table>
+        <tr>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Marca</th>
+            <th class="actions">Acciones</th>
+        </tr>
+        <!-- Puedes agregar filas adicionales con los datos de tus artículos aquí -->
+        <tr>
+            <td>Artículo 1</td>
+            <td>10</td>
+            <td>$50.00</td>
+            <td>Samsung</td>
+            <td class="actions">
+                <a href="#">Editar</a> |
+                <a href="#">Borrar</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Artículo 2</td>
+            <td>5</td>
+            <td>$30.00</td>
+            <td>Motorola</td>
+            <td class="actions">
+                <a href="#">Editar</a> |
+                <a href="#">Borrar</a>
+            </td>
+        </tr>
+        <!-- Agrega más filas según sea necesario -->
+    </table>
+
+            
+        </form>
+    </body>
+</html>
